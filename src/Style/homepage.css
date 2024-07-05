@@ -1,0 +1,45 @@
+img{
+    max-width: 100%;  
+    height: auto;
+}
+
+.content-container {
+    position: relative;
+    width: 100%;
+  }
+  
+
+  .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+  }
+  
+  .home-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .home-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    /* background-color: #333; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Style the button hover effect */
+  .home-content button:hover {
+    background-color: #555;
+  }
+  

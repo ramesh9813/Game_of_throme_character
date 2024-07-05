@@ -1,0 +1,15 @@
+.main-container{
+    background-color: rgb(23,22,23);
+    height: 8vh;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:end;
+     
+}
+.nav-bar{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;   
+}

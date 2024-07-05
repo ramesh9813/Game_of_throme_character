@@ -1,0 +1,13 @@
+.single-container{
+    border: 2px solid black;
+   justify-content: center;
+   color: white;
+}
+.single-container p,h3,.img-container{
+    display: flex;
+    justify-content: center;
+}
+.img-container{
+    height: 300px;
+    width: auto;
+}
